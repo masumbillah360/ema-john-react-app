@@ -5,7 +5,6 @@ import Shop from "./compo/Shop/Shop";
 function App() {
   return <div>
     <Header></Header>
-    <h1>I'm Still Existing...</h1>
     <Shop></Shop>
   </div>;
 }
