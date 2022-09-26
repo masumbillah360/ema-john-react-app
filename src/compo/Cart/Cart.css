@@ -1,0 +1,7 @@
+.carted-products{
+    text-align: center;
+    position: relative;
+}
+.products{
+    position: sticky;
+}

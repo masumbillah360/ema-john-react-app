@@ -1,0 +1,13 @@
+.product{
+    background-color: darkgray;
+    border-radius: 10px;
+    text-align: center;
+    /* padding: 10px 10px; */
+    border: 2px solid gray;
+}
+.product>img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 300px;
+}
