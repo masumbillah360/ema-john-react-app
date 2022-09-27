@@ -5,7 +5,7 @@ import './Products.css'
 import productImage from '../../products.png'
 
 const Products = ({products, cartHandler}) => {
-    const {img, name, price, ratings, ratingsCount, seller, stock, category, shipping} = products;
+    const {img, name, price, ratings, ratingsCount, seller, category, shipping} = products;
     return (
         <div className='product'>
             <img src={img?img:productImage} alt="productPhoto" />
