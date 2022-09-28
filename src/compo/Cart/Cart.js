@@ -21,10 +21,12 @@ const Cart = ({cart}) => {
                 <h4>Carted Items Details</h4>
                 <h3>all Item's: {quantity}</h3>
                 <p>Total Price : {total}</p>
-                {/* <p>Products Name :</p>
+                <p>Products Name :</p>
+                <ol>
                 {
-                    name.map(n=><p key={Math.random()*10}>{n}</p>)
-                } */}
+                    name.map(n=><li key={Math.random()*10}>{n}</li>)
+                }
+                </ol>
                 <p>Total Shipping : {shipping}</p>
                 <p>Total Tax : {tax} </p>
                 <h4>Grand Total : {grandTotal} </h4>
