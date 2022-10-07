@@ -19,7 +19,7 @@ const Products = ({products, cartHandler}) => {
                 <p>Brand : {seller}</p>
             </div>
             <div style={{display:"flex", justifyContent:"space-around"}}>
-                <h4>Price : {price}</h4>
+                <h4>Price : ${price}</h4>
                 <p>shipping : {shipping}</p>
             </div>
             <button className='cart-btn' onClick={()=> cartHandler(products)}>Add To Cart <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></button>
